@@ -2,7 +2,7 @@ a = [list(map(int, input().split())) for _ in range(9)]
 
 def check(a):
     for i in range(9):
-        ch1 = [0] * 10
+        ch1 = [0] * 10 
         ch2 = [0] * 10
         for j in range(9):
             ch1[a[i][j]] = 1 # 행체크
